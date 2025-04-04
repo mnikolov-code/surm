@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Application User"
+  },
+  {
+    "name": "Approver"
+  },
+  {
+    "name": "Approver/Reviewer"
+  },
+  {
+    "name": "Developer"
+  },
+  {
+    "name": "Menager"
+  },
+  {
+    "name": "Operator"
+  },
+  {
+    "name": "Power User"
+  },
+  {
+    "name": "Recipe"
+  },
+  {
+    "name": "Reviewer"
+  },
+  {
+    "name": "Senior Analyst"
+  },
+  {
+    "name": "Superuser"
+  },
+  {
+    "name": "VkDissoAuthorizer"
+  },
+  {
+    "name": "VkDissoDiagnostics"
+  },
+  {
+    "name": "VkDissoMethodMaint"
+  },
+  {
+    "name": "VkDissoRunMethod"
+  },
+  {
+    "name": "VkModifyOthersMethod"
+  },
+  {
+    "name": "Windows User"
+  }
+]

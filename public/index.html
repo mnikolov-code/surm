@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alkaloid Systems User and Roles Management</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CSS (for icons) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background: #f0f0f0; 
+      padding: 0;
+      margin: 0;
+      height: 100vh;  /* Full height of the viewport */
+      display: flex; /* Flexbox for vertical and horizontal centering */
+      justify-content: center; /* Horizontally center content */
+      align-items: center; /* Vertically center content */
+    }
+    .container { 
+      background: white; 
+      padding: 20px; 
+      border-radius: 10px; 
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+      width: 100%; 
+      max-width: 800px;  /* Adjust the max width for the content */
+    }
+    .hidden { display: none; }
+    .logout-btn { 
+      position: absolute; 
+      top: 20px; 
+      right: 20px; 
+    }
+    .logo {
+      max-width: 180px;
+      margin-bottom: 25px;
+    }
+    /* Modal Styles */
+    .modal-backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1040;  /* Adjusted z-index */
+    }
+    .modal-content {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      z-index: 1050;  /* Adjusted z-index */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Log Out Button -->
+    
+    <div class="text-center">
+      <img src="data:image/png;base64,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" alt="Алкалоид Лого" class="logo">
+      <h2 class="text-center mb-4" style="color: #083978;"><B>Alkaloid Systems User and Roles Management</B></h2>
+    </div>
+
+    <!-- Buttons for Viewer and Admin -->
+    <div class="d-flex justify-content-center mb-4">
+      <!-- Viewer Button with an Eye Icon -->
+      <button class="btn btn-primary mx-2" onclick="showViewer()">
+        <i class="fas fa-eye"></i> Viewer
+      </button>
+      <!-- Admin Button with a Wrench Icon -->
+      <button class="btn btn-success mx-2" onclick="showAdmin()">
+        <i class="fas fa-cogs"></i> Admin
+      </button>
+    </div>
+
+    <!-- Admin Login Section (Hidden by Default) -->
+    <div id="login" class="hidden">
+      <div class="modal-backdrop" id="modalBackdrop" onclick="closeAdminModal()"></div>
+      <div class="modal-content">
+        <h2 class="text-center mb-4">Enter Admin Password</h2>
+        <div class="mb-3">
+          <input type="password" id="adminPassword" class="form-control" placeholder="Password" />
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-primary" onclick="verifyPassword()">Login</button>
+          <button class="btn btn-secondary ms-2" onclick="closeAdminModal()">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Viewer Section -->
+    <div id="viewer" class="hidden">
+      <h2 class="text-center mb-4">Select Software</h2>
+      <div class="mb-3">
+        <label for="softwareFilter" class="form-label">Select Software: </label>
+        <select id="softwareFilter" class="form-select">
+          <option value="">--Select Software--</option>
+        </select>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button class="btn btn-secondary" onclick="goHome()">Назад</button>
+      </div>
+    </div>
+
+    <!-- Create Data Section -->
+    <div id="createMenu" class="hidden">
+      <h2 class="text-center mb-4">Create Data</h2>
+      <!-- Create User Form -->
+      <div class="section mb-4">
+        <h3>➕ Create User</h3>
+        <div class="mb-3">
+          <input type="text" id="newUserName" class="form-control" placeholder="Full Name" />
+        </div>
+        <div class="mb-3">
+          <input type="text" id="newUsername" class="form-control" placeholder="Username" />
+        </div>
+        <div class="mb-3">
+          <input type="text" id="newDepartment" class="form-control" placeholder="Department" />
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-primary" onclick="createUser()">Save User</button>
+        </div>
+      </div>
+
+      <!-- Add Role to User Form -->
+      <div class="section mb-4">
+        <h3>➕ Add Role to User</h3>
+        <div class="mb-3">
+          <input type="text" id="roleUsername" class="form-control" placeholder="Username" />
+        </div>
+        <div class="mb-3">
+          <input type="text" id="roleSoftware" class="form-control" placeholder="Software" />
+        </div>
+        <div class="mb-3">
+          <input type="text" id="roleName" class="form-control" placeholder="Role" />
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-primary" onclick="addRole()">Save Role</button>
+        </div>
+      </div>
+
+      <!-- Add Software Form -->
+      <div class="section mb-4">
+        <h3>➕ Add Software</h3>
+        <div class="mb-3">
+          <input type="text" id="softwareName" class="form-control" placeholder="Software Name" />
+        </div>
+        <div class="mb-3">
+          <input type="text" id="initialRole" class="form-control" placeholder="Initial Role (optional)" />
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-primary" onclick="addSoftware()">Save Software</button>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center">
+        <button class="btn btn-secondary" onclick="goHome()">Назад</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // Log Out function
+    function logOut() {
+      window.location.href = "http://localhost:3000/";
+    }
+
+    // Go back to home
+    function goHome() {
+      location.reload();
+    }
+
+    // Show Viewer Section
+    function showViewer() {
+      window.location.href = "http://localhost:3000/board.html";
+    }
+
+    // Show Admin Login Section (popup)
+    function showAdmin() {
+      document.getElementById('login').classList.remove('hidden');
+    }
+
+    // Close Admin Login Popup
+    function closeAdminModal() {
+      document.getElementById('login').classList.add('hidden');
+    }
+
+    // Verify Admin Password
+    function verifyPassword() {
+      const password = document.getElementById('adminPassword').value;
+      if (password === 'AlkaloidSURM1') {
+        window.location.href = "http://localhost:3000/view.html";
+      } else {
+        alert('Incorrect password!');
+      }
+    }
+
+    // Hide all sections
+    function hideAll() {
+      ['home', 'login', 'viewer', 'createMenu'].forEach(id => {
+        document.getElementById(id).classList.add('hidden');
+      });
+    }
+
+    // Create User
+    async function createUser() {
+      const data = {
+        user: document.getElementById('newUserName').value,
+        username: document.getElementById('newUsername').value,
+        department: document.getElementById('newDepartment').value
+      };
+      const res = await fetch('/api/users', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      alert(await res.text());
+    }
+
+    // Add Role to User
+    async function addRole() {
+      const data = {
+        username: document.getElementById('roleUsername').value,
+        software: document.getElementById('roleSoftware').value,
+        role: document.getElementById('roleName').value
+      };
+      const res = await fetch('/api/roles', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      alert(await res.text());
+    }
+
+    // Add Software
+    async function addSoftware() {
+      const data = {
+        name: document.getElementById('softwareName').value,
+        initialRole: document.getElementById('initialRole').value
+      };
+      const res = await fetch('/api/software', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      alert(await res.text());
+    }
+  </script>
+</body>
+</html>

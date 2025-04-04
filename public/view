@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Role Manager</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f0f0; padding: 20px; }
+    .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    button { padding: 10px 20px; margin: 10px 5px; cursor: pointer; }
+    .hidden { display: none; }
+    input, select { padding: 10px; width: 100%; box-sizing: border-box; }
+    label { font-weight: bold; margin-top: 10px; display: block; }
+    .section { margin-bottom: 20px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    .checkbox-list label { display: block; }
+    .autocomplete-list { background: #fff; border: 1px solid #ccc; max-height: 150px; overflow-y: auto; position: absolute; width: 100%; z-index: 1000; }
+    .autocomplete-item { padding: 5px; cursor: pointer; }
+    .autocomplete-item:hover { background-color: #eee; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="home">
+      <h1>Software Role Manager</h1>
+      <button onclick="showLogin()">Create</button>
+      <button onclick="showView()">View</button>
+    </div>
+
+    <div id="login" class="hidden">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" />
+      <button onclick="login()">Login</button>
+      <button onclick="goHome()">Назад</button>
+    </div>
+
+    <div id="createMenu" class="hidden">
+      <h2>Create Data</h2>
+      <div class="section">
+        <h3>➕ Create User</h3>
+        <input type="text" id="newUserName" placeholder="Full Name" />
+        <input type="text" id="newUsername" placeholder="Username" />
+        <input type="text" id="newDepartment" placeholder="Department" />
+        <button onclick="createUser()">Save User</button>
+      </div>
+
+      <div class="section">
+        <h3>➕ Add Role to User</h3>
+        <input type="text" id="roleUsername" placeholder="Username" />
+        <input type="text" id="roleSoftware" placeholder="Software" />
+        <input type="text" id="roleName" placeholder="Role" />
+        <button onclick="addRole()">Save Role</button>
+      </div>
+
+      <div class="section">
+        <h3>➕ Add Software</h3>
+        <input type="text" id="softwareName" placeholder="Software Name" />
+        <input type="text" id="initialRole" placeholder="Initial Role (optional)" />
+        <button onclick="addSoftware()">Save Software</button>
+      </div>
+
+      <button onclick="goHome()">Назад</button>
+    </div>
+
+    <div id="viewSection" class="hidden">
+      <h2>View & Filter</h2>
+      <input type="text" id="searchUser" placeholder="Search by username" oninput="showSuggestions(this.value)" />
+      <div id="suggestions" class="autocomplete-list hidden"></div>
+
+      <div class="section">
+        <label>Roles</label>
+        <div id="rolesCheckboxes" class="checkbox-list"></div>
+      </div>
+      <div class="section">
+        <label>Software</label>
+        <div id="softwareCheckboxes" class="checkbox-list"></div>
+      </div>
+      <button onclick="filterData()">Барај</button>
+      <button onclick="goHome()">Назад</button>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Username</th>
+            <th>Software</th>
+            <th>Role</th>
+            <th>Department</th>
+          </tr>
+        </thead>
+        <tbody id="resultsTable"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    let allUserRoles = [];
+    let allUsernames = [];
+
+    function hideAll() {
+      ['home', 'login', 'createMenu', 'viewSection'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.classList.add('hidden');
+      });
+    }
+
+    function goHome() {
+      hideAll();
+      document.getElementById('home').classList.remove('hidden');
+    }
+
+    function showLogin() {
+      hideAll();
+      document.getElementById('login').classList.remove('hidden');
+    }
+
+    function showCreate() {
+      hideAll();
+      document.getElementById('createMenu').classList.remove('hidden');
+    }
+
+    function showView() {
+      hideAll();
+      document.getElementById('viewSection').classList.remove('hidden');
+      loadViewData();
+    }
+
+    function login() {
+      const user = document.getElementById('username').value;
+      const pass = document.getElementById('password').value;
+      if (user === 'vpenchov' && pass === 'AlkaloidSKKF1!') {
+        showCreate();
+      } else {
+        alert('Invalid credentials!');
+      }
+    }
+
+    async function createUser() {
+      const data = {
+        user: document.getElementById('newUserName').value,
+        username: document.getElementById('newUsername').value,
+        department: document.getElementById('newDepartment').value
+      };
+      const res = await fetch('/api/users', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      alert(await res.text());
+    }
+
+    async function addRole() {
+      const data = {
+        username: document.getElementById('roleUsername').value,
+        software: document.getElementById('roleSoftware').value,
+        role: document.getElementById('roleName').value
+      };
+      const res = await fetch('/api/roles', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      alert(await res.text());
+    }
+
+    async function addSoftware() {
+      const data = {
+        name: document.getElementById('softwareName').value,
+        initialRole: document.getElementById('initialRole').value
+      };
+      const res = await fetch('/api/software', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      alert(await res.text());
+    }
+
+    async function loadViewData() {
+      const users = await fetch('/api/users').then(r => r.json());
+      const roles = await fetch('/api/roles').then(r => r.json());
+
+      allUserRoles = roles.map(r => {
+        const u = users.find(u => u.username === r.username);
+        return {
+          ...r,
+          department: u ? u.department : ''
+        };
+      });
+
+      allUsernames = [...new Set(allUserRoles.map(r => r.username))];
+
+      const rolesContainer = document.getElementById('rolesCheckboxes');
+      const softwareContainer = document.getElementById('softwareCheckboxes');
+      rolesContainer.innerHTML = '';
+      softwareContainer.innerHTML = '';
+
+      const allRoles = [...new Set(allUserRoles.map(r => r.role))];
+      const allSoftware = [...new Set(allUserRoles.map(r => r.software))];
+
+      allRoles.forEach(role => {
+        const label = document.createElement('label');
+        label.innerHTML = `<input type="checkbox" value="${role}"> ${role}`;
+        rolesContainer.appendChild(label);
+      });
+
+      allSoftware.forEach(sw => {
+        const label = document.createElement('label');
+        label.innerHTML = `<input type="checkbox" value="${sw}"> ${sw}`;
+        softwareContainer.appendChild(label);
+      });
+    }
+
+    function showSuggestions(query) {
+      const suggestions = document.getElementById('suggestions');
+      suggestions.innerHTML = '';
+      if (query.length < 2) return suggestions.classList.add('hidden');
+
+      const matches = allUsernames.filter(name => name.toLowerCase().includes(query.toLowerCase()));
+      matches.forEach(match => {
+        const div = document.createElement('div');
+        div.classList.add('autocomplete-item');
+        div.innerText = match;
+        div.onclick = () => {
+          document.getElementById('searchUser').value = match;
+          suggestions.classList.add('hidden');
+        };
+        suggestions.appendChild(div);
+      });
+
+      suggestions.classList.remove('hidden');
+    }
+
+    function filterData() {
+      const username = document.getElementById('searchUser').value.toLowerCase();
+      const selectedRoles = Array.from(document.querySelectorAll('#rolesCheckboxes input:checked')).map(cb => cb.value);
+      const selectedSoftware = Array.from(document.querySelectorAll('#softwareCheckboxes input:checked')).map(cb => cb.value);
+
+      const filtered = allUserRoles.filter(row => {
+        const userMatch = row.username.toLowerCase().includes(username);
+        const roleMatch = selectedRoles.length === 0 || selectedRoles.includes(row.role);
+        const softwareMatch = selectedSoftware.length === 0 || selectedSoftware.includes(row.software);
+        return userMatch && roleMatch && softwareMatch;
+      });
+
+      const tbody = document.getElementById('resultsTable');
+      tbody.innerHTML = '';
+      filtered.forEach(row => {
+        tbody.innerHTML += `<tr><td>${row.username}</td><td>${row.software}</td><td>${row.role}</td><td>${row.department}</td></tr>`;
+      });
+    }
+  </script>
+</body>
+</html>

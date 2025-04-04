@@ -1,0 +1,1422 @@
+[
+  {
+    "User": "Andrea Alagjozovska",
+    "Username": "aalagjozovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Ana Aleksandric",
+    "Username": "aaleksandric",
+    "Department": "QC"
+  },
+  {
+    "User": "Andrijana Aleksovska",
+    "Username": "aaleksovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Anastasija Angelovska",
+    "Username": "aangelovska",
+    "Department": "RD"
+  },
+  {
+    "User": "Aleksandra Bajdeska",
+    "Username": "abajdeska",
+    "Department": "QC"
+  },
+  {
+    "User": "Antonela Bojkovska",
+    "Username": "abojkovska",
+    "Department": "R&D"
+  },
+  {
+    "User": "Ana  Iloska Crnichikj",
+    "Username": "acrnichikj",
+    "Department": "MB"
+  },
+  {
+    "User": "Aleksandra Damevska",
+    "Username": "adamevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Aleksandra Damjanoska",
+    "Username": "adamjanoska",
+    "Department": "QC"
+  },
+  {
+    "User": "External Support (Full Access)",
+    "Username": "Admin, extsupport, savsvc",
+    "Department": "External Support"
+  },
+  {
+    "User": "Angela Janeva",
+    "Username": "ajaneva",
+    "Department": "QC"
+  },
+  {
+    "User": "Ana Janevska",
+    "Username": "ajanevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Aleksandar Janusevski",
+    "Username": "ajanusevski",
+    "Department": "QC"
+  },
+  {
+    "User": "Aneta Jovanoska",
+    "Username": "ajovanoska",
+    "Department": "QC"
+  },
+  {
+    "User": "Aneta Lazarevska",
+    "Username": "alazarevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Anita Lazova",
+    "Username": "alazova",
+    "Department": "QC"
+  },
+  {
+    "User": "Aleksandra Manasieska",
+    "Username": "amanasieska",
+    "Department": "QC"
+  },
+  {
+    "User": "Aleksandar Micev",
+    "Username": "amicev",
+    "Department": "RD"
+  },
+  {
+    "User": "Andrej Milosevski",
+    "Username": "amilosevski",
+    "Department": "QC"
+  },
+  {
+    "User": "Adrijana Nosacheva",
+    "Username": "anosascheva",
+    "Department": "MB"
+  },
+  {
+    "User": "Ana Giceva Pepovska",
+    "Username": "apepovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Ana Petkovska",
+    "Username": "apetkovska",
+    "Department": "R&D"
+  },
+  {
+    "User": "Angela Radevska",
+    "Username": "aradevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Aleksandar Ristovski",
+    "Username": "aristovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Anastasija Serafimovska",
+    "Username": "aserafimovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Alksandra Stanceva",
+    "Username": "astanceva",
+    "Department": "QC"
+  },
+  {
+    "User": "Anastasija Stojanovska",
+    "Username": "astojanovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Aleksandar Vasilevski",
+    "Username": "avasilevski1",
+    "Department": "QC"
+  },
+  {
+    "User": "Ana Vavlukis",
+    "Username": "avavlukis",
+    "Department": "QC"
+  },
+  {
+    "User": "Bobi Acevski",
+    "Username": "bacevski2",
+    "Department": "QC"
+  },
+  {
+    "User": "Blagoj AcHevski",
+    "Username": "bacHevski",
+    "Department": "QC"
+  },
+  {
+    "User": "Bukurie Ajeti",
+    "Username": "bajeti",
+    "Department": "QC"
+  },
+  {
+    "User": "Biljana Bujaroska",
+    "Username": "bbujaroska",
+    "Department": "QC"
+  },
+  {
+    "User": "Biljana Pisljevic Camurovski",
+    "Username": "bcamurovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Bosko Cicakovski",
+    "Username": "bcicakovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Bisera Gjorgjievska",
+    "Username": "bgjorgjievska",
+    "Department": "MB"
+  },
+  {
+    "User": "Bojana Gjorgjievska",
+    "Username": "bgjorgjievska1",
+    "Department": "MTO"
+  },
+  {
+    "User": "Bisera Janeska Trajkovska",
+    "Username": "bjaneska",
+    "Department": "QC"
+  },
+  {
+    "User": "Bisera Karakoleva",
+    "Username": "bkarakoleva",
+    "Department": "MB"
+  },
+  {
+    "User": "Boban Krstevski",
+    "Username": "bkrstevski",
+    "Department": "QC"
+  },
+  {
+    "User": "Biljana Markoska ",
+    "Username": "bmarkoska1",
+    "Department": "QC"
+  },
+  {
+    "User": "Blagica Samarova Stoev",
+    "Username": "bstoev",
+    "Department": "QC"
+  },
+  {
+    "User": "Boris Trifunoski",
+    "Username": "btrifunoski",
+    "Department": "QC"
+  },
+  {
+    "User": "Cveta Dolikjoska Trajkova",
+    "Username": "cdolikjoska",
+    "Department": "QC"
+  },
+  {
+    "User": "Cvetanka Janakieva",
+    "Username": "cjanakieva",
+    "Department": "QC"
+  },
+  {
+    "User": "Cvetanka Petrevska",
+    "Username": "cpetrevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Daniela Acevska",
+    "Username": "dacevska1",
+    "Department": "QC"
+  },
+  {
+    "User": "Dushica Angelovska",
+    "Username": "dangelovska",
+    "Department": "RD"
+  },
+  {
+    "User": "Darko Bacvarovski",
+    "Username": "dbacvarovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Dafinka Damcevska",
+    "Username": "ddamcevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Daliborka ivanova",
+    "Username": "divanova",
+    "Department": "MB"
+  },
+  {
+    "User": "Daniela Josifovska",
+    "Username": "djosifovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Dragana Kafedziska",
+    "Username": "dkafedziska",
+    "Department": "QC"
+  },
+  {
+    "User": "Dragana Kostovska",
+    "Username": "dkostovska",
+    "Department": "QC"
+  },
+  {
+    "User": "David Kostovski",
+    "Username": "dkostovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Dragan Kostovski",
+    "Username": "dkostovski1",
+    "Department": "R&D"
+  },
+  {
+    "User": "David Kostovski",
+    "Username": "dkostovski2",
+    "Department": "QC"
+  },
+  {
+    "User": "Dragan Kukeski",
+    "Username": "dkukeski",
+    "Department": "IT&T"
+  },
+  {
+    "User": "Dame Malov",
+    "Username": "dmalov",
+    "Department": "IT&T"
+  },
+  {
+    "User": "Davor Micevski",
+    "Username": "dmicevski",
+    "Department": "QC"
+  },
+  {
+    "User": "Daniela Petreska",
+    "Username": "dpetreska",
+    "Department": "QC"
+  },
+  {
+    "User": "David Spasov",
+    "Username": "dspasov",
+    "Department": "QC"
+  },
+  {
+    "User": "Davor Stefanovski",
+    "Username": "dstefanovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Darko Stojanov",
+    "Username": "dstojanov",
+    "Department": "R&D"
+  },
+  {
+    "User": "Despina Stojanovska",
+    "Username": "dstojanovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Dragan Todorovic",
+    "Username": "dtodorovic",
+    "Department": "MB"
+  },
+  {
+    "User": "Dragana Trajkovic",
+    "Username": "dtrajkovic",
+    "Department": "QC"
+  },
+  {
+    "User": "Dimitar Trajkovski",
+    "Username": "dtrajkovski",
+    "Department": "R&D"
+  },
+  {
+    "User": "Emilija Acevska",
+    "Username": "eacevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Emel Alit",
+    "Username": "ealit",
+    "Department": "QC"
+  },
+  {
+    "User": "Elizabeta Atanaskova",
+    "Username": "eatanaskova",
+    "Department": "QC"
+  },
+  {
+    "User": "Elena Bilbilovska",
+    "Username": "ebilbilovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Elizabeta Bogdanovska",
+    "Username": "ebogdanovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Elena Boskovska",
+    "Username": "eboskovska1",
+    "Department": "QC"
+  },
+  {
+    "User": "Elena Cvetanovska",
+    "Username": "ecvetanovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Elena Cvetkovska",
+    "Username": "ecvetkovska",
+    "Department": "R&D"
+  },
+  {
+    "User": "Ema Dimitrova",
+    "Username": "edimitrova",
+    "Department": "QC"
+  },
+  {
+    "User": "Emilija Janeska",
+    "Username": "ejaneska",
+    "Department": "QC"
+  },
+  {
+    "User": "Emilija Kocova",
+    "Username": "ekocova",
+    "Department": "QC"
+  },
+  {
+    "User": "Emilija Kovcic",
+    "Username": "ekovcic",
+    "Department": "R&D"
+  },
+  {
+    "User": "Ema Kuzmanovska",
+    "Username": "ekuzmanovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Elena Paceskoska",
+    "Username": "epaceskoska",
+    "Department": "QC"
+  },
+  {
+    "User": "Elena Pesevska",
+    "Username": "epesevska",
+    "Department": "R&D"
+  },
+  {
+    "User": "Elizabeta Popovska",
+    "Username": "epopovska",
+    "Department": "MB"
+  },
+  {
+    "User": "Elena Stankovska",
+    "Username": "estankovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Elena Stefova",
+    "Username": "estefova",
+    "Department": "R&D"
+  },
+  {
+    "User": "Elena Veselinova",
+    "Username": "eveselinova",
+    "Department": "QC"
+  },
+  {
+    "User": "Filip Grujevski",
+    "Username": "fgrujevski",
+    "Department": "QC"
+  },
+  {
+    "User": "Frosina Spasovska",
+    "Username": "fspasovska1",
+    "Department": "QC"
+  },
+  {
+    "User": "Gjorgji Atanasov",
+    "Username": "gatanasov ",
+    "Department": "QC"
+  },
+  {
+    "User": "Gordana Gestakovska",
+    "Username": "ggestakovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Gjorgji Petrusevski",
+    "Username": "gjpetrusevski",
+    "Department": "R&D"
+  },
+  {
+    "User": "Gordana Mitrovska",
+    "Username": "gmitrovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Gabriela Spirkoska",
+    "Username": "gspirkoska",
+    "Department": "R&D"
+  },
+  {
+    "User": "Hristina Kirovska",
+    "Username": "hkirovska",
+    "Department": "RD"
+  },
+  {
+    "User": "Hristijan Stojanov",
+    "Username": "hstojanov",
+    "Department": "QC"
+  },
+  {
+    "User": "Hristina Tomovska",
+    "Username": "htomovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Ivana Atanasova",
+    "Username": "iatanasova",
+    "Department": "QC"
+  },
+  {
+    "User": "Ivana Dimitrovska",
+    "Username": "idimitrovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Ivana Gjorgjevska",
+    "Username": "igjorgjevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Iva Janeva",
+    "Username": "ijaneva",
+    "Department": "QC"
+  },
+  {
+    "User": "Ivana Kocoska",
+    "Username": "ikocoska",
+    "Department": "MB"
+  },
+  {
+    "User": "Ivan Kralev",
+    "Username": "ikralev",
+    "Department": "QC"
+  },
+  {
+    "User": "Ida Kucinovska",
+    "Username": "ikucinovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Igor Kunovski",
+    "Username": "ikunovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Irena Lepceska",
+    "Username": "ilepceska",
+    "Department": "QC"
+  },
+  {
+    "User": "Iskra Mickovska",
+    "Username": "imickovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Ivana Miteva",
+    "Username": "imiteva",
+    "Department": "QC"
+  },
+  {
+    "User": "Iva Nakevska",
+    "Username": "inakevska",
+    "Department": "R&D"
+  },
+  {
+    "User": "Ilina Popovska",
+    "Username": "ipopovska",
+    "Department": "MB"
+  },
+  {
+    "User": "Ivanco Sinadinoski",
+    "Username": "isinadinoski",
+    "Department": "MB"
+  },
+  {
+    "User": "Iva Sokolovska",
+    "Username": "isokolovska ",
+    "Department": "IT&T"
+  },
+  {
+    "User": "Ivana Spendzarska Petkovski",
+    "Username": "ispendzarska",
+    "Department": "QC"
+  },
+  {
+    "User": "Ivona Tarchugovska",
+    "Username": "itarchugovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Ivona Trajkovikj",
+    "Username": "itrajkovikj",
+    "Department": "RD"
+  },
+  {
+    "User": "Ilija Zikovski",
+    "Username": "izikovski",
+    "Department": "IT&T"
+  },
+  {
+    "User": "Jelena Dimitrovska",
+    "Username": "jdimitrovska",
+    "Department": "MB"
+  },
+  {
+    "User": "Jovana Ilievska",
+    "Username": "jilievska",
+    "Department": "MB"
+  },
+  {
+    "User": "Jana Pop Nikolova",
+    "Username": "jpopnikolova",
+    "Department": "QC"
+  },
+  {
+    "User": "Julijana Taskova Stojanovska",
+    "Username": "jstojanovska",
+    "Department": "MB"
+  },
+  {
+    "User": "Kristina Angelovska",
+    "Username": "kangelovska1",
+    "Department": "QC"
+  },
+  {
+    "User": "Keti Angelovska",
+    "Username": "kangelovska3",
+    "Department": "QC"
+  },
+  {
+    "User": "Kate Atanasova",
+    "Username": "katanasova",
+    "Department": "QC"
+  },
+  {
+    "User": "Katerina Cvetkovska",
+    "Username": "kcvetkovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Kristina Doneva ",
+    "Username": "kdoneva",
+    "Department": "QC"
+  },
+  {
+    "User": "Konstantin Golaboski",
+    "Username": "kgolaboski",
+    "Department": "R&D"
+  },
+  {
+    "User": "Katerina Grozdanovska",
+    "Username": "kgrozdanovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Kristina Ivanovska",
+    "Username": "kivanovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Kristina Jakovleva",
+    "Username": "kjakovleva",
+    "Department": "R&D"
+  },
+  {
+    "User": "Kristina Jozic",
+    "Username": "kjozic",
+    "Department": "QC"
+  },
+  {
+    "User": "Kristijan Krsteski",
+    "Username": "kkrsteski",
+    "Department": "QC"
+  },
+  {
+    "User": "Katerina Markovska Radicevska",
+    "Username": "kradicevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Kristina Stamatovska",
+    "Username": "kstamatovska1",
+    "Department": ""
+  },
+  {
+    "User": "Kristina Talevska",
+    "Username": "ktalevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Katerina Veljanovska",
+    "Username": "kveljanovska",
+    "Department": "R&D"
+  },
+  {
+    "User": "Lazar Andreevski",
+    "Username": "landreevski",
+    "Department": "QC"
+  },
+  {
+    "User": "Liljana Dukovska",
+    "Username": "ldukovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Lence Markovska",
+    "Username": "lmarkovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Liljana Stavreska",
+    "Username": "lstavreska",
+    "Department": "QC"
+  },
+  {
+    "User": "Menika Anastasieska",
+    "Username": "manastasieska",
+    "Department": "QC"
+  },
+  {
+    "User": "Marija Angelkovska",
+    "Username": "mangelkovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Marija Crcarovska",
+    "Username": "mcrcarovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Marijana Cvetkovska",
+    "Username": "mcvetkovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Mila Dimitrovska",
+    "Username": "mdimitrovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Magdalena Dimova",
+    "Username": "mdimova",
+    "Department": "QC"
+  },
+  {
+    "User": "Milena Dobrkovikj Shotarovska",
+    "Username": "mdobrkovikj ",
+    "Department": "QC"
+  },
+  {
+    "User": "Meri Dzorovska",
+    "Username": "mdzorovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Maja Gjorgjeska",
+    "Username": "mgjorgjeska",
+    "Department": "QC"
+  },
+  {
+    "User": "Milena Gjorgjieska",
+    "Username": "mgjorgjieska",
+    "Department": "MB"
+  },
+  {
+    "User": "Maja Gjorgjieva",
+    "Username": "mgjorgjieva",
+    "Department": "QC"
+  },
+  {
+    "User": "Maja Ilioska",
+    "Username": "milioska",
+    "Department": "QC"
+  },
+  {
+    "User": "Mile Iliovski",
+    "Username": "miliovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Martina Jakovlevska",
+    "Username": "mjakovlevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Martina Keskec",
+    "Username": "mkeskec",
+    "Department": "R&D"
+  },
+  {
+    "User": "Martina Kostadinovska",
+    "Username": "mkostadinovska1",
+    "Department": "R&D"
+  },
+  {
+    "User": "Marija Kostova",
+    "Username": "mkostova",
+    "Department": "QC"
+  },
+  {
+    "User": "Marta Krstevska",
+    "Username": "mkrstevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Mersime Krujezi",
+    "Username": "mkrujezi",
+    "Department": "QC"
+  },
+  {
+    "User": "Miona Manasova",
+    "Username": "mmanasova",
+    "Department": "QC"
+  },
+  {
+    "User": "Marina Mandzukovska Micevska",
+    "Username": "mmandzukovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Martin Markovski",
+    "Username": "mmarkovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Marija Milosevska",
+    "Username": "mmilosevska",
+    "Department": "MB"
+  },
+  {
+    "User": "Maja Mindoseva",
+    "Username": "mmindoseva",
+    "Department": "QC"
+  },
+  {
+    "User": "Maja Mitreska",
+    "Username": "mmitreska",
+    "Department": "QC"
+  },
+  {
+    "User": "Marija Mojsovska",
+    "Username": "mmojsovska",
+    "Department": "RD"
+  },
+  {
+    "User": "Milena Nanov",
+    "Username": "mnanov",
+    "Department": "QC"
+  },
+  {
+    "User": "Marija Nikolic",
+    "Username": "mnikolic",
+    "Department": "QC"
+  },
+  {
+    "User": "Martina Nikoloska",
+    "Username": "mnikoloska",
+    "Department": "QC"
+  },
+  {
+    "User": "Milena Nikolovska",
+    "Username": "mnikolovska1",
+    "Department": "QC"
+  },
+  {
+    "User": "Marija Nuneva",
+    "Username": "mnuneva",
+    "Department": "QC"
+  },
+  {
+    "User": "Monika Organdjieva",
+    "Username": "morgandjieva",
+    "Department": "QC"
+  },
+  {
+    "User": "Marijana Pejic",
+    "Username": "mpejic",
+    "Department": "QC"
+  },
+  {
+    "User": "Matilda Petrova",
+    "Username": "mpetrova",
+    "Department": "QC"
+  },
+  {
+    "User": "Martina Projceska",
+    "Username": "mprojceska",
+    "Department": "MB"
+  },
+  {
+    "User": "Maja Rangelova Smileska",
+    "Username": "mrangelova",
+    "Department": "RD"
+  },
+  {
+    "User": "Martin Rickov",
+    "Username": "mrickov",
+    "Department": "QC"
+  },
+  {
+    "User": "Marija Ristovska",
+    "Username": "mristovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Marija Ristovska 1",
+    "Username": "mristovska1",
+    "Department": "QC"
+  },
+  {
+    "User": "Magdalena Sazdova Atanasovska",
+    "Username": "msazdova",
+    "Department": "QC"
+  },
+  {
+    "User": "Mirjana Sazdovska",
+    "Username": "msazdovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Maja Simjanovska",
+    "Username": "msimjanovska",
+    "Department": "MB"
+  },
+  {
+    "User": "Marija Spasevska",
+    "Username": "mspasevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Magdalena Stajkova",
+    "Username": "mstajkova",
+    "Department": "R&D"
+  },
+  {
+    "User": "Marija Stojanovska",
+    "Username": "mstojanovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Monika Stojanovska",
+    "Username": "mstojanovska1",
+    "Department": "R&D"
+  },
+  {
+    "User": "Maja Stojkovska",
+    "Username": "mstojkovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Marija Todorova",
+    "Username": "mtodorova1",
+    "Department": "QC"
+  },
+  {
+    "User": "Milosh Todorovski",
+    "Username": "mtodorovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Metodi Trajcev",
+    "Username": "mtrajcev",
+    "Department": "QC"
+  },
+  {
+    "User": "Marijana Trendafilovik",
+    "Username": "mtrendafilovik",
+    "Department": "R&D"
+  },
+  {
+    "User": "Maja Zdravkovska",
+    "Username": "mzdravkovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Nadica Boeva",
+    "Username": "nboeva",
+    "Department": "QC"
+  },
+  {
+    "User": "Nikolia Bozinovska",
+    "Username": "nbozinovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Nenad Bozinovski",
+    "Username": "nbozinovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Nikola Cvetkovski",
+    "Username": "ncvetkovski",
+    "Department": "IT&T"
+  },
+  {
+    "User": "Nenad Dimitrovski",
+    "Username": "ndimitrovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Nora Doci",
+    "Username": "ndoci",
+    "Department": "QC"
+  },
+  {
+    "User": "Natasa Ilievska",
+    "Username": "nilievska",
+    "Department": "QC"
+  },
+  {
+    "User": "Natasa Ivanovska",
+    "Username": "nivanovska",
+    "Department": "Kalibracii"
+  },
+  {
+    "User": "Nikola Pavleski",
+    "Username": "npavleski",
+    "Department": "QC"
+  },
+  {
+    "User": "Natasha Spasova",
+    "Username": "nspasova",
+    "Department": "QC"
+  },
+  {
+    "User": "Nada Stojanoska",
+    "Username": "nstojanoska",
+    "Department": "QC"
+  },
+  {
+    "User": "Nadezda Stojkova",
+    "Username": "nstojkova",
+    "Department": "MB"
+  },
+  {
+    "User": "Nina Zareva",
+    "Username": "nzareva",
+    "Department": "QC"
+  },
+  {
+    "User": "Nikola Zupan",
+    "Username": "nzupan",
+    "Department": "QC"
+  },
+  {
+    "User": "Ognen Ampov",
+    "Username": "oampov",
+    "Department": "QC"
+  },
+  {
+    "User": "Olivera Nanovska Apostolova",
+    "Username": "oapostolova",
+    "Department": "QC"
+  },
+  {
+    "User": "Olgica Gjorgjievska",
+    "Username": "ogjorgijevska",
+    "Department": "MB"
+  },
+  {
+    "User": "Olivera Gjorgjievska",
+    "Username": "ogjorgjievska",
+    "Department": "MB"
+  },
+  {
+    "User": "Olgica Kocevska",
+    "Username": "okocevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Perica Bozinovski",
+    "Username": "pbozinovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Pavlina Filipovska",
+    "Username": "pfilipovska",
+    "Department": "R&D"
+  },
+  {
+    "User": "Petranka Petrusevska Janoska",
+    "Username": "ppetrusevska (pjanoska)",
+    "Department": "QC"
+  },
+  {
+    "User": "Roska Dinova",
+    "Username": "rdinova",
+    "Department": "MB"
+  },
+  {
+    "User": "Riste Nikolovski",
+    "Username": "rnikolovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Simona Atanasovska",
+    "Username": "satanasovska1",
+    "Department": "RD"
+  },
+  {
+    "User": "Sanja Brankovic",
+    "Username": "sbrankovic",
+    "Department": "R&D"
+  },
+  {
+    "User": "Silvana Danilovska Mitrovska",
+    "Username": "sdanilovska",
+    "Department": "MB"
+  },
+  {
+    "User": "Stefan Davidovski",
+    "Username": "sdavidovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Sanja Despotovska",
+    "Username": "sdespotovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Slagjan Dodevski",
+    "Username": "sdodevski",
+    "Department": "IT&T"
+  },
+  {
+    "User": "Sasko Dzalevski",
+    "Username": "sdzalevski",
+    "Department": "IT&T"
+  },
+  {
+    "User": "Simona Farmakova",
+    "Username": "sfarmakova",
+    "Department": "QC"
+  },
+  {
+    "User": "Simona Gjurcevska",
+    "Username": "sgjurcevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Sanja Hristovska",
+    "Username": "shristovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Slavica Janeva",
+    "Username": "sjaneva",
+    "Department": "QC"
+  },
+  {
+    "User": "Stojance Kirovski",
+    "Username": "skirovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Simona Koteska",
+    "Username": "skoteska",
+    "Department": "QC"
+  },
+  {
+    "User": "Suncica Lausevic",
+    "Username": "slausevic1",
+    "Department": "QC"
+  },
+  {
+    "User": "Sandra Pavlovska",
+    "Username": "spavlovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Sanja Pecevska",
+    "Username": "specevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Stefani Perovska",
+    "Username": "sperovska",
+    "Department": "R&D"
+  },
+  {
+    "User": "Sara Petreska",
+    "Username": "spetreska",
+    "Department": "QC"
+  },
+  {
+    "User": "Stevce Petrovski",
+    "Username": "spetrovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Stefan Radevski",
+    "Username": "sradevski",
+    "Department": "QC"
+  },
+  {
+    "User": "Snezana Sardzoska",
+    "Username": "ssardzoska",
+    "Department": "MB"
+  },
+  {
+    "User": "Slavica Sardzovska",
+    "Username": "ssardzovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Simona Sekulovska",
+    "Username": "ssekulovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Sasha Todorovikj",
+    "Username": "stodorovikj",
+    "Department": "MB"
+  },
+  {
+    "User": "Silvana Veljanoska",
+    "Username": "sveljanoska",
+    "Department": "R&D"
+  },
+  {
+    "User": "Silvana Zlatanovic",
+    "Username": "szlatanovic",
+    "Department": "MB"
+  },
+  {
+    "User": "Saso Zupan",
+    "Username": "szupan",
+    "Department": "IT&T"
+  },
+  {
+    "User": "Tijana Argirova",
+    "Username": "targirova",
+    "Department": "QC"
+  },
+  {
+    "User": "Tatjana Bogovska",
+    "Username": "tbogovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Tatjana Dimitrieva",
+    "Username": "tdimitrieva",
+    "Department": "QC"
+  },
+  {
+    "User": "Teodora Ivanovska",
+    "Username": "tivanovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Tatjana Jovanovska",
+    "Username": "tjovanovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Tasika Kovacevic Novakova",
+    "Username": "tkovacevic",
+    "Department": "QC"
+  },
+  {
+    "User": "Teodora Malceva",
+    "Username": "tmalceva",
+    "Department": "MB"
+  },
+  {
+    "User": "Tatjana Pejic",
+    "Username": "tpejic",
+    "Department": "R&D"
+  },
+  {
+    "User": "Ugrin Ilievski",
+    "Username": "uilievski",
+    "Department": "QC"
+  },
+  {
+    "User": "Vesna Angelovska",
+    "Username": "vangelovska",
+    "Department": "MB"
+  },
+  {
+    "User": "Vladica Atanasovska",
+    "Username": "vatanasovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Verica Boskova Sekovska",
+    "Username": "vboskova",
+    "Department": "RD"
+  },
+  {
+    "User": "Vasilka Dubrova Koceva",
+    "Username": "vdubrova",
+    "Department": "QC"
+  },
+  {
+    "User": "VER_USER_ExternalMaintenance",
+    "Username": "VER_USER_ExternalMaintenance",
+    "Department": ""
+  },
+  {
+    "User": "VER_USER_ITAdmin",
+    "Username": "VER_USER_ITAdmin",
+    "Department": ""
+  },
+  {
+    "User": "VER_USER_KeyUser",
+    "Username": "VER_USER_KeyUser",
+    "Department": ""
+  },
+  {
+    "User": "VER_USER_Maintenance",
+    "Username": "VER_USER_Maintenance",
+    "Department": ""
+  },
+  {
+    "User": "VER_USER_MTO_Analyst",
+    "Username": "VER_USER_MTO_Analyst",
+    "Department": "MTO"
+  },
+  {
+    "User": "VER_USER_MTO_Approver",
+    "Username": "VER_USER_MTO_Approver",
+    "Department": "MTO"
+  },
+  {
+    "User": "VER_USER_MTO_Reviewer",
+    "Username": "VER_USER_MTO_Reviewer",
+    "Department": "MTO"
+  },
+  {
+    "User": "VER_USER_MTO_SeniorAnalyst",
+    "Username": "VER_USER_MTO_SeniorAnalyst",
+    "Department": "MTO"
+  },
+  {
+    "User": "VER_USER_MTO_Viewer",
+    "Username": "VER_USER_MTO_Viewer",
+    "Department": "MTO"
+  },
+  {
+    "User": "VER_USER_QC_Analyst",
+    "Username": "VER_USER_QC_Analyst",
+    "Department": "QC"
+  },
+  {
+    "User": "VER_USER_QC_Approver",
+    "Username": "VER_USER_QC_Approver",
+    "Department": "QC"
+  },
+  {
+    "User": "VER_USER_QC_Reviewer",
+    "Username": "VER_USER_QC_Reviewer",
+    "Department": "QC"
+  },
+  {
+    "User": "VER_USER_QC_SeniorAnalyst",
+    "Username": "VER_USER_QC_SeniorAnalyst",
+    "Department": "QC"
+  },
+  {
+    "User": "VER_USER_QC_Viewer",
+    "Username": "VER_USER_QC_Viewer",
+    "Department": "QC"
+  },
+  {
+    "User": "VER_USER_R&D_Analyst",
+    "Username": "VER_USER_R&D_Analyst",
+    "Department": "RD"
+  },
+  {
+    "User": "VER_USER_R&D_Approver",
+    "Username": "VER_USER_R&D_Approver",
+    "Department": "RD"
+  },
+  {
+    "User": "VER_USER_R&D_Reviewer",
+    "Username": "VER_USER_R&D_Reviewer",
+    "Department": "RD"
+  },
+  {
+    "User": "VER_USER_R&D_Viewer",
+    "Username": "VER_USER_R&D_Viewer",
+    "Department": "RD"
+  },
+  {
+    "User": "Viktorija Gruevska",
+    "Username": "vgruevska",
+    "Department": "QC"
+  },
+  {
+    "User": "Vladimir Kostovski",
+    "Username": "vkostovski",
+    "Department": "MB"
+  },
+  {
+    "User": "Vera Mojsoska",
+    "Username": "vmojsoska",
+    "Department": "QC"
+  },
+  {
+    "User": "Viktor Penchov",
+    "Username": "vpenchov",
+    "Department": "IT&T"
+  },
+  {
+    "User": "Viktorija Todorovska",
+    "Username": "vtodorovska",
+    "Department": "QC"
+  },
+  {
+    "User": "Zarko Angelovski",
+    "Username": "zangelovski1",
+    "Department": "QC"
+  },
+  {
+    "User": "Zarko Brajanoski",
+    "Username": "zbrajanoski",
+    "Department": "QC"
+  },
+  {
+    "User": "Zlatko Gorgievski",
+    "Username": "zgorgievski",
+    "Department": "QC"
+  },
+  {
+    "User": "Zivko Manasievski",
+    "Username": "zmanasievski",
+    "Department": "QC"
+  },
+  {
+    "User": "Zoran Mironovski",
+    "Username": "zmironovski",
+    "Department": "QC"
+  },
+  {
+    "User": "Zorica Tuneva",
+    "Username": "ztuneva",
+    "Department": "QC"
+  }
+]
